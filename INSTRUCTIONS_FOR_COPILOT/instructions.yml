@@ -578,3 +578,75 @@ I can do the next step as an actual repo pack spec and write you:
 	•	and a copy-paste file manifest for all repo files
 
 so you can dump it straight into GitHub/Copilot land and let your little code goblins instantiate it.
+
+be sure to cover:
+## Repo Structureslime-mold-style-repo/
+├── taxonomy/          # Major groups & orders
+├── lifecycle/         # Stage-by-stage breakdowns + visual traits
+├── species/           # 100+ species with art-focused metadata
+├── vocab/             # Morphology, texture, motion, color language
+├── prompt_system/     # Templates for AI art generation
+├── palettes/          # Color schemes (naturalist, neon, decay, jewel)
+├── environments/      # Substrate contexts (bark, moss, mulch, dung)
+├── render_logic/      # Scale, translucency, macro photography rules
+└── examples/          # Prompt packs (naturalist, maximalist, horror, alien, mathy)
+
+
+## Target Coverage
+
+- **70+ myxomycetes** (plasmodial group - main visual spectacle)
+- **20+ dictyostelids** (cellular/social slime molds)
+- **10+ protostelids** (tiny stalked forms)
+
+Organized by visual archetype:
+- Foams & crusts (Fuligo, Lycogala, Reticularia)
+- Coral & lace (Arcyria, Trichia, Hemitrichia)
+- Bead towers & goblets (Cribraria, Craterium, Didymium)
+- Metallic gothic freaks (Lamproderma, Stemonitis, Comatricha)
+- Vein networks (Physarum polycephalum, Tubifera)
+- Frost & chalk (Diderma, white-lime species)
+
+## How to Use
+
+### For AI Art Prompts
+1. Browse `/species/` by visual archetype
+2. Check `iconic_stages` and `art_translation` fields
+3. Combine with `/prompt_system/prompt_templates.md`
+4. Layer with `/palettes/` and `/environments/`
+
+### For Creative Coding
+1. Reference `/lifecycle/master_lifecycle_matrix.yml` for stage transitions
+2. Use `/vocab/motion_terms.md` for animation logic
+3. Pull branching patterns from `/render_logic/branching_networks.md`
+
+### For Worldbuilding
+1. Mix species from `/species/index.json`
+2. Apply `/prompt_system/crossbreed_experiments.md` rules
+3. Scale up/down using `/render_logic/scale_exaggeration.md`
+
+## Philosophy
+
+Biology tells you **what exists**.  
+Visual DNA tells you **what to do with it**.
+
+This repo bridges both.
+
+## Data Sources
+
+- MycoBank (taxonomic authority)
+- iNaturalist (photography, distribution)
+- Eumycetozoan Project (myxomycete database)
+- Field guides (morphology, substrate)
+- Macro photography archives (visual reference)
+
+## License
+
+MIT - go make weird shit with this.
+
+## Contributing
+
+Additions welcome if they maintain the art-focus. Pull requests should include:
+- Full species YAML with all template fields
+- At least 3 art_translation examples
+- Concrete visual language (no vague academic descriptions)
+
