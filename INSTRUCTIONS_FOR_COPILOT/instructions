@@ -1,0 +1,580 @@
+Hell yes. Let’s make this repo a slime mold art arsenal, not some limp-ass biology folder.
+
+You want three things living together:
+	1.	Species library — at least 100 species, with visual traits.
+	2.	Lifecycle engine — every weird little stage, because slime molds are shapeshifters.
+	3.	Promptable structure — files your apps/agents can actually ingest and remix.
+
+Slime molds aren’t one neat little group; the big art-relevant buckets are plasmodial slime molds (myxomycetes / myxogastria), cellular slime molds (dictyostelids), and protostelids. Plasmodial ones are the flashy macroscopic freaks most people think of, with roughly 850–1000 known species depending on source; dictyostelids are a separate social-amoeba group, and protostelids are tiny stalked weirdos with far fewer described species.  ￼
+
+What should be in the repo
+
+Here’s the repo skeleton I’d use:
+
+slime-mold-style-repo/
+├── README.md
+├── REPO_MAP.md
+├── LICENSE.md
+├── taxonomy/
+│   ├── slime_mold_groups.md
+│   ├── myxomycetes_orders.md
+│   ├── dictyostelids_overview.md
+│   └── protostelids_overview.md
+├── lifecycle/
+│   ├── master_lifecycle_matrix.yml
+│   ├── plasmodial_lifecycle.md
+│   ├── cellular_lifecycle.md
+│   ├── protostelid_lifecycle.md
+│   ├── stage_visual_traits/
+│   │   ├── spores.md
+│   │   ├── amoebae.md
+│   │   ├── swarm_cells.md
+│   │   ├── zygote.md
+│   │   ├── plasmodium.md
+│   │   ├── vein_networks.md
+│   │   ├── sclerotium.md
+│   │   ├── primordia.md
+│   │   ├── aethalia.md
+│   │   ├── pseudoaethalia.md
+│   │   ├── sporangia.md
+│   │   ├── stalks_stipes.md
+│   │   ├── capillitium.md
+│   │   ├── peridium.md
+│   │   ├── columella.md
+│   │   ├── slug_grexs.md
+│   │   ├── sorocarps.md
+│   │   ├── macrocysts.md
+│   │   └── microcysts.md
+├── species/
+│   ├── index.csv
+│   ├── index.json
+│   ├── myxomycetes/
+│   ├── dictyostelids/
+│   └── protostelids/
+├── vocab/
+│   ├── morphology_terms.md
+│   ├── texture_terms.md
+│   ├── color_terms.md
+│   ├── motion_terms.md
+│   ├── substrate_terms.md
+│   ├── scale_terms.md
+│   └── failure_mutation_terms.md
+├── prompt_system/
+│   ├── prompt_templates.md
+│   ├── prompt_blocks.yml
+│   ├── visual_dna_modules.md
+│   ├── species_mix_rules.md
+│   ├── lifecycle_mix_rules.md
+│   └── crossbreed_experiments.md
+├── palettes/
+│   ├── naturalist_palettes.yml
+│   ├── neon_bioelectric_palettes.yml
+│   ├── rot_decay_palettes.yml
+│   └── jewel_spore_palettes.yml
+├── environments/
+│   ├── bark.md
+│   ├── rotting_logs.md
+│   ├── leaf_litter.md
+│   ├── moss_beds.md
+│   ├── dung.md
+│   ├── cave_surfaces.md
+│   ├── desert_crusts.md
+│   └── aquatic_edges.md
+├── render_logic/
+│   ├── macro_photography.md
+│   ├── microscope_logic.md
+│   ├── scale_exaggeration.md
+│   ├── translucency_and_wetness.md
+│   ├── branching_networks.md
+│   ├── spore_dust_atmospherics.md
+│   └── bioluminescent_interpretations.md
+├── datasets/
+│   ├── species_minimum_100.yml
+│   ├── lifecycle_stage_matrix.csv
+│   └── habitats_and_substrates.csv
+└── examples/
+    ├── prompts_naturalist.md
+    ├── prompts_maximalist.md
+    ├── prompts_horror.md
+    ├── prompts_alien.md
+    ├── prompts_mathy.md
+    └── prompts_fashion_material.md
+
+The core concept
+
+For art use, every species file should not just say “what it is.” It should say:
+	•	what stage is visually iconic
+	•	what shape language it uses
+	•	what surface/finish it gives you
+	•	what color range it tends to hit
+	•	what substrates it appears on
+	•	what scale fantasy it suggests
+	•	what it can be remixed into: jewelry, architecture, alien flesh, lace, coral, circuitry, fungal couture, etc.
+
+Because the real visual gold is in the lifecycle. Plasmodial slime molds pass through spores → amoeboid/swarm cells → zygote → multinucleate plasmodium → fruiting bodies, and can also form hardened resting stages like sclerotia. Cellular slime molds do the “lonely amoebae become a coordinated slug and then a fruiting body” thing, and many also have cyst cycles or sexual macrocysts. Protostelids make tiny simple sporocarps on stalks.  ￼
+
+The lifecycle files you absolutely want
+
+This part matters a lot. Don’t skip it.
+
+1. Plasmodial lifecycle
+
+This is your big dramatic monster file:
+	•	spores
+	•	myxamoebae
+	•	flagellated swarm cells
+	•	cell fusion
+	•	zygote
+	•	young plasmodium
+	•	mature vein-network plasmodium
+	•	fan-shaped feeding fronts
+	•	sclerotium
+	•	primordia
+	•	fruiting initiation
+	•	sporangia / aethalia / pseudoaethalia / plasmodiocarps
+	•	capillitium and spore release
+
+These are the famous “yellow web on bark / foamy blob / coral candelabra / metallic bead towers” bastards.  ￼
+
+2. Cellular lifecycle
+
+For dictyostelids:
+	•	solitary amoebae
+	•	starvation signal / aggregation centers
+	•	streaming cell rivers
+	•	mound
+	•	migrating slug / grex
+	•	culmination
+	•	sorocarp (stalk + spore mass)
+	•	microcyst
+	•	macrocyst
+
+This is the social choreography one. Tiny, but conceptually sexy as hell.  ￼
+
+3. Protostelid lifecycle
+	•	amoeboid feeding cell
+	•	tiny sporocarp initiation
+	•	simple stalk
+	•	one/few spores
+	•	collapse / dispersal
+
+These are minimalist little perverts. Great for micro-ornament logic.  ￼
+
+⸻
+
+File schema for each species
+
+I’d make each species a .yml or .json plus optional .md.
+
+species/myxomycetes/fuligo_septica.yml
+
+id: myxo_fuligo_septica
+scientific_name: Fuligo septica
+common_names:
+  - dog vomit slime mold
+  - scrambled egg slime
+group: myxomycetes
+order: Physarales
+growth_form:
+  - aethalium
+iconic_stages:
+  - plasmodium
+  - aethalium
+color_range:
+  - sulfur yellow
+  - ochre
+  - tan
+  - off-white
+surface_traits:
+  - foamy
+  - puffed
+  - crusting
+  - powdering with age
+structure_traits:
+  - pillow-like mass
+  - swollen lobes
+  - irregular spreading sheet
+texture_tags:
+  - damp foam
+  - sulfur dust
+  - drying crust
+substrates:
+  - mulch
+  - wood chips
+  - rotting wood
+  - leaf litter
+mood_tags:
+  - obscene
+  - comic
+  - grotesque
+  - bioindustrial
+art_translation:
+  - sulfur foam architecture
+  - diseased luxury textile
+  - expanding alien custard mass
+  - crusted planetary terrain
+render_modes:
+  - macro photo
+  - natural history plate
+  - grotesque maximalism
+  - neon mutation
+related_species:
+  - Physarum polycephalum
+  - Mucilago crustacea
+
+Master index fields
+
+For the big dataset, use these columns:
+	•	scientific_name
+	•	common_name
+	•	major_group
+	•	order
+	•	family if known
+	•	growth_form
+	•	dominant_stage
+	•	secondary_stages
+	•	main_colors
+	•	surface_finish
+	•	shape_language
+	•	branching_type
+	•	substrate
+	•	scale
+	•	macro_visibility
+	•	visual_drama_score
+	•	goo_factor
+	•	spike_factor
+	•	lace_factor
+	•	metallic_factor
+	•	powder_factor
+	•	translucency
+	•	prompt_tags
+	•	remix_targets
+
+That way your agent can search for shit like:
+	•	“give me coral-like red clustered slime molds”
+	•	“find species with metallic iridescent stalked fruiting bodies”
+	•	“show only species that look like foam, caviar, lace, or chrome towers”
+
+Species coverage target
+
+You wanted at least 100 species. Good. Do not just do random 100. Do them by visual archetype, so the repo is useful for art.
+
+Bucket A — foams, blobs, pillows, crusts
+	•	Fuligo septica
+	•	Mucilago crustacea
+	•	Enteridium lycoperdon
+	•	Reticularia splendens
+	•	Lycogala epidendrum
+	•	Lycogala terrestre
+	•	Brefeldia maxima
+	•	Badhamia utricularis
+	•	Physarum cinereum
+	•	Physarum compressum
+	•	Physarum nutans
+	•	Physarum album
+
+Bucket B — coral / candelabra / lace / tuft
+	•	Arcyria denudata
+	•	Arcyria cinerea
+	•	Arcyria obvelata
+	•	Arcyria incarnata
+	•	Arcyria pomiformis
+	•	Arcyria stipata
+	•	Trichia varia
+	•	Trichia favoginea
+	•	Trichia decipiens
+	•	Hemitrichia serpula
+	•	Hemitrichia calyculata
+	•	Metatrichia vesparium
+
+Bucket C — bead towers / pins / goblets / bells
+	•	Cribraria argillacea
+	•	Cribraria cancellata
+	•	Cribraria intricata
+	•	Cribraria violacea
+	•	Craterium minutum
+	•	Craterium leucocephalum
+	•	Didymium squamulosum
+	•	Didymium iridis
+	•	Didymium difforme
+	•	Didymium nigripes
+	•	Diachea leucopodia
+	•	Leocarpus fragilis
+
+Bucket D — metallic, black, iridescent, gothic freaks
+	•	Lamproderma scintillans
+	•	Lamproderma columbinum
+	•	Lamproderma arcyrioides
+	•	Comatricha nigra
+	•	Comatricha pulchella
+	•	Stemonitis axifera
+	•	Stemonitis fusca
+	•	Stemonitopsis typhina
+	•	Enerthenema papillatum
+	•	Collaria arcyrionema
+
+Bucket E — nets, veins, labyrinths, spreading organisms
+	•	Physarum polycephalum
+	•	Badhamia panicea
+	•	Fuligo muscorum
+	•	Tubifera ferruginosa
+	•	Tubifera applanata
+	•	Alwisia lloydiae
+	•	Ceratiomyxa fruticulosa
+	•	Ceratiomyxa morchella
+	•	Ceratiomyxa sphaerosperma
+	•	Physarella oblonga
+
+Bucket F — white frost / chalk / pearl / calcified
+	•	Diderma hemisphaericum
+	•	Diderma effusum
+	•	Diderma spumarioides
+	•	Physarum leucophaeum
+	•	Didymium clavus
+	•	Didymium melanospermum
+	•	Cribraria aurantiaca
+	•	Mucilago crustacea
+	•	Colloderma oculatum
+	•	Lindbladia tubulina
+
+Bucket G — weird rare shape language
+	•	Elaeomyxa cerifera
+	•	Dianema corticatum
+	•	Dianema harveyi
+	•	Prototrichia metallica
+	•	Licea biforis
+	•	Licea kleistobolus
+	•	Licea minima
+	•	Echinostelium minutum
+	•	Echinostelium elachiston
+	•	Macbrideola decapillata
+
+Bucket H — dictyostelids / cellular slime molds
+	•	Dictyostelium discoideum
+	•	Dictyostelium mucoroides
+	•	Dictyostelium purpureum
+	•	Dictyostelium giganteum
+	•	Dictyostelium rosarium
+	•	Polysphondylium pallidum
+	•	Polysphondylium violaceum
+	•	Polysphondylium tenuissimum
+	•	Cavenderia fasciculata
+	•	Cavenderia bhumiboliana
+	•	Heterostelium album
+	•	Acytostelium subglobosum
+
+Bucket I — protostelids / tiny minimal stalk freaks
+	•	Protostelium mycophaga
+	•	Protostelium arachisporum
+	•	Tychosporium acutostipes
+	•	Ceratiomyxella tahitiensis
+	•	Schizoplasmodiopsis pseudoendospora
+	•	Nematostelium gracile
+	•	Endostelium zonatum
+	•	Clastostelium recurvatum
+	•	Protosporangium articulatum
+	•	Soliformovum irregularis
+
+Bucket J — fill out to 100+ with more myxomycetes
+	•	Arcyria ferruginea
+	•	Arcyria globosa
+	•	Trichia botrytis
+	•	Trichia scabra
+	•	Trichia persimilis
+	•	Physarum viride
+	•	Physarum melleum
+	•	Badhamia foliicola
+	•	Badhamia macrocarpa
+	•	Stemonaria longa
+	•	Symphytocarpus flaccidus
+	•	Perichaena depressa
+	•	Perichaena corticalis
+	•	Perichaena chrysosperma
+	•	Licea parasitica
+	•	Willkommlangea reticulata
+
+That gets you well over 100, and more importantly it gives you a good spread of visual morphologies, not just taxonomic filler. The plasmodial group alone has around 850–1000 known species worldwide, so a 100-species starter pack is extremely reasonable.  ￼
+
+The visual vocab files should include
+
+morphology_terms.md
+
+Words your agent can use:
+	•	capillitium
+	•	peridium
+	•	columella
+	•	stipe
+	•	sporocarp
+	•	sporangium
+	•	aethalium
+	•	pseudoaethalium
+	•	plasmodiocarp
+	•	hypothallus
+	•	lime nodes
+	•	iridescent peridium
+	•	netted cage
+	•	candelabrum branching
+	•	caviar clustering
+	•	coral tufting
+	•	powder burst
+	•	vein lattice
+	•	amoeboid streaming
+	•	slug migration
+	•	sorocarp bouquet
+
+texture_terms.md
+	•	mucus-slick
+	•	custard-thick
+	•	powder-dry
+	•	chalky
+	•	calcified
+	•	pearl-dusted
+	•	metallic wet
+	•	latex foam
+	•	vascular gel
+	•	translucent amber
+	•	blistered
+	•	velvety spores
+	•	filament-fray
+	•	crackled rind
+	•	spore ash
+
+motion_terms.md
+	•	pulse-streaming
+	•	tide-reversal flow
+	•	exploratory branching
+	•	starvation aggregation
+	•	coordinated migration
+	•	peristaltic advance
+	•	crusting over
+	•	eruptive fruiting
+	•	dust release
+	•	stalk elevation
+
+That motion part is especially sexy because plasmodial slime molds have cytoplasmic streaming through vein-like networks, while dictyostelids do the aggregation/slug choreography.  ￼
+
+Environment files you want
+
+These matter because substrate changes the vibe hard.
+	•	rotting_logs.md — bark fissures, wet tannins, moss, fungal neighbors
+	•	leaf_litter.md — curled leaves, fine debris, humus, low-angle moisture sheen
+	•	mulch_woodchips.md — suburban spawn point for disgusting glory
+	•	moss_beds.md — jewelbox microforest
+	•	dung.md — important for some cellular slime molds and related amoeboid weirdos
+	•	cave_surfaces.md — pale ghost slime potential
+	•	desert_crusts.md — overlooked and cool as hell
+	•	aquatic_edges.md — semi-aquatic outliers
+
+Slime molds occur across terrestrial ecosystems and some push into unusual habitats, including deserts, caves, dung, bark, leaf litter, and even a few aquatic or semi-aquatic contexts.  ￼
+
+Prompt-system files
+
+This is where the repo becomes actually useful for your art stack.
+
+prompt_templates.md
+
+Have templates like:
+
+1. Naturalist macro
+
+[species] in its [lifecycle_stage] phase, growing on [substrate], with [surface_traits], [shape_language], [color_range], extreme macro photography, shallow depth of field, micro-forest scale, spore dust, condensation, documentary realism
+
+2. Maximalist mutation
+
+A colossal [species] interpreted as [architectural/fashion/alien object], combining [stage_1] and [stage_2], with [texture_tags], [motion_tags], [palette], recursive branching, biomorphic excess, wet iridescence, catastrophic detail density
+
+3. Mathy bio-network
+
+Use [species] plasmodial vein logic as a routing system across [surface], with oscillating cytoplasmic flow, graph-theoretic branching, pulse propagation, adaptive maze behavior, rendered as living topology
+
+4. Slug procession
+
+Cellular slime mold aggregation streams converging into a migrating slug, tiny amoebae forming a unified body, soil-particle scale, ritual procession energy, soft translucency, emergent intelligence made visible
+
+Files that make the repo extra badass
+
+These are the bonus organs.
+
+crossbreed_experiments.md
+
+Stuff like:
+	•	Arcyria + coral reef
+	•	Fuligo + diseased rococo frosting
+	•	Cribraria + beaded couture
+	•	Physarum + subway map
+	•	Dictyostelid slug + religious procession
+	•	Lamproderma + oil slick obsidian
+	•	Tubifera + raspberry organ cluster
+	•	Ceratiomyxa + frost cathedral
+
+render_logic/translucency_and_wetness.md
+
+How to describe:
+	•	subsurface moisture
+	•	edge glow through mucus
+	•	drying transitions
+	•	spore dust halos
+	•	calcified crust over soft wet core
+
+render_logic/scale_exaggeration.md
+
+Slime molds rule because they can be:
+	•	pinhead-size jewels
+	•	hand-sized foams
+	•	cathedral-sized alien districts in fantasy render logic
+
+README should explain the repo’s job
+
+Something like:
+
+This repo is a structured visual taxonomy and prompt system for slime molds and slime-mold-adjacent amoebozoan weirdness. It is designed for AI art systems, creative coding, shader experiments, speculative biology, material design, and visual worldbuilding. It emphasizes morphology, lifecycle stages, texture, branching logic, substrate, and scale translation rather than purely academic taxonomy.
+
+The minimum launch set I’d build first
+
+If you don’t want to drown immediately, do this first:
+	•	1 README
+	•	1 repo map
+	•	3 taxonomy overviews
+	•	3 lifecycle overviews
+	•	20 lifecycle stage files
+	•	1 morphology vocab
+	•	1 texture vocab
+	•	1 motion vocab
+	•	1 substrate vocab
+	•	1 prompt template file
+	•	1 species index csv
+	•	100 species YAML files
+
+That alone is enough to feed a repo-driven art app without the whole thing collapsing into gelatinous bullshit.
+
+Recommended data split
+
+Do the species library like this:
+	•	70 myxomycetes
+	•	20 dictyostelids
+	•	10 protostelids
+
+That reflects visual usefulness pretty well. The macroscopic plasmodial group is the main eye-candy class; dictyostelids add behavioral/social/lifecycle richness; protostelids add tiny alien minimalist form language.  ￼
+
+My blunt recommendation
+
+Do not make this repo only taxonomy-heavy. That would be boring as shit and less useful for art.
+
+Make every species pull double duty:
+	•	biology file
+	•	visual DNA file
+
+Like this:
+	•	biology tells you what exists
+	•	visual DNA tells you what to do with it
+
+Best next move
+
+I can do the next step as an actual repo pack spec and write you:
+	•	the full 100+ species starter list
+	•	the exact YAML schema
+	•	the README
+	•	the lifecycle matrix
+	•	and a copy-paste file manifest for all repo files
+
+so you can dump it straight into GitHub/Copilot land and let your little code goblins instantiate it.
