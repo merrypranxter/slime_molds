@@ -1,0 +1,69 @@
+id: myxo_arcyria_denudata
+scientific_name: Arcyria denudata
+common_names:
+  - red coral slime mold
+  - carnival slime
+group: myxomycetes
+order: Trichiales
+growth_form:
+  - sporangia
+  - clustered sporangia
+iconic_stages:
+  - sporangia
+  - capillitium_expansion
+  - spore_release
+color_range:
+  - coral red
+  - salmon pink
+  - rose petal
+  - terracotta orange
+  - ochre fading (dry)
+surface_traits:
+  - elastic capillitium threads
+  - tufted expansion on maturity
+  - short cylindrical peridium base
+  - dense tuft when expanded
+  - fading to ochre with age
+structure_traits:
+  - clustered stalked sporangia
+  - cylindrical-to-ovoid sporangium
+  - expanding capillitium tuft
+  - short dark stipe
+  - dense group colonies on substrate
+texture_tags:
+  - coral-branched
+  - hair-tuft
+  - filament-stretch
+  - capillary web
+  - velvety spores
+  - tuft-explosion
+substrates:
+  - rotting logs
+  - dead wood
+  - bark
+  - woody debris
+mood_tags:
+  - baroque
+  - carnivalesque
+  - jeweled
+  - rococo
+  - festive
+art_translation:
+  - exploded textile fibers
+  - capillitium as structural lace
+  - carnelian thread couture
+  - microscale carnival plumes
+  - coral reef tuft colony
+  - red velvet thread sculpture
+render_modes:
+  - macro photo (red coral on dark wood)
+  - SEM-aesthetic thread detail
+  - fashion editorial (textile analog)
+  - coral reef analog
+  - naturalist plate with expansion sequence
+  - maximalist color explosion
+related_species:
+  - Arcyria cinerea
+  - Arcyria incarnata
+  - Trichia varia
+  - Hemitrichia serpula

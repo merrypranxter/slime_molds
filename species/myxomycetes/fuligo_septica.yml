@@ -1,0 +1,55 @@
+id: myxo_fuligo_septica
+scientific_name: Fuligo septica
+common_names:
+  - dog vomit slime mold
+  - scrambled egg slime
+group: myxomycetes
+order: Physarales
+growth_form:
+  - aethalium
+iconic_stages:
+  - plasmodium
+  - aethalium
+color_range:
+  - sulfur yellow
+  - ochre
+  - tan
+  - off-white
+surface_traits:
+  - foamy
+  - puffed
+  - crusting
+  - powdering with age
+structure_traits:
+  - pillow-like mass
+  - swollen lobes
+  - irregular spreading sheet
+texture_tags:
+  - sulfur foam
+  - damp foam
+  - crackled rind
+  - powder-dry
+  - blistered
+substrates:
+  - mulch
+  - wood chips
+  - rotting wood
+  - leaf litter
+mood_tags:
+  - obscene
+  - comic
+  - grotesque
+  - bioindustrial
+art_translation:
+  - sulfur foam architecture
+  - diseased luxury textile
+  - expanding alien custard mass
+  - crusted planetary terrain
+render_modes:
+  - macro photo
+  - natural history plate
+  - grotesque maximalism
+  - neon mutation
+related_species:
+  - Physarum polycephalum
+  - Mucilago crustacea

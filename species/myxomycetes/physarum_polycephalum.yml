@@ -1,0 +1,71 @@
+id: myxo_physarum_polycephalum
+scientific_name: Physarum polycephalum
+common_names:
+  - many-headed slime mold
+  - blob
+  - yellow network slime
+group: myxomycetes
+order: Physarales
+growth_form:
+  - phaneroplasmodium
+  - sporangia
+  - plasmodiocarp
+iconic_stages:
+  - plasmodium
+  - vein_networks
+  - sporangia
+color_range:
+  - canary electric yellow
+  - amber translucent
+  - dark amber gold
+  - dark brown (sporangia)
+  - near black (stipe)
+surface_traits:
+  - mucus-slick gel
+  - translucent amber veins
+  - edge-glow at feeding front
+  - calcified yellow-white (older)
+  - papery brown (dried sporangia)
+structure_traits:
+  - branching vein network
+  - fan-shaped feeding front
+  - exploratory tendrils
+  - clustered stalked sporangia
+  - plasmodiocarp vein-fossil form
+texture_tags:
+  - vein-lattice
+  - translucent amber
+  - mucus-slick
+  - subway-network
+  - edge-glow gel
+  - circuit-board
+substrates:
+  - rotting logs
+  - bark
+  - leaf litter
+  - agar (laboratory)
+  - moist soil
+mood_tags:
+  - xenobiotic
+  - distributed intelligence
+  - alien intelligence
+  - scientific curiosity
+  - mathy
+art_translation:
+  - living subway map
+  - liquid gold circuit board
+  - Tokyo rail network grown by biology
+  - alien root system optimizing paths
+  - cytoplasmic pulse animation
+  - distributed computing visualization
+render_modes:
+  - macro photo (backlit translucency)
+  - mathy topology graph
+  - neon bioelectric mutation
+  - timelapse network expansion
+  - data visualization overlay
+  - naturalist plate (sporangia)
+related_species:
+  - Fuligo septica
+  - Physarum compressum
+  - Badhamia utricularis
