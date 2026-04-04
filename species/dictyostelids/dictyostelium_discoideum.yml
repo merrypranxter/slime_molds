@@ -1,0 +1,74 @@
+id: dictyo_dictyostelium_discoideum
+scientific_name: Dictyostelium discoideum
+common_names:
+  - social amoeba
+  - Dicty
+  - cellular slime mold
+group: dictyostelids
+order: Dictyosteliales
+growth_form:
+  - sorocarp
+  - grex
+  - aggregation_stream
+iconic_stages:
+  - camp_signal_waves
+  - aggregation_streams
+  - slug_grex
+  - sorocarp
+color_range:
+  - translucent cream (amoeba/grex)
+  - pale amber (sorus)
+  - wan tan (dry sorocarp)
+  - agar pale (substrate)
+  - dark soil brown (substrate)
+surface_traits:
+  - smooth translucent grex body
+  - thin cellulose stalk (clear)
+  - globose sorus head
+  - mucus trail during migration
+  - pale aggregate streams on substrate
+structure_traits:
+  - elongated migratory slug
+  - thin vertical stalk (sorophore)
+  - spherical spore head (sorus)
+  - river-delta aggregation streams
+  - spiral cAMP wave patterns (population)
+texture_tags:
+  - glass-smooth
+  - translucent amber
+  - river-delta
+  - tapioca-globules
+  - slime-trail
+  - pin-headed
+substrates:
+  - soil
+  - leaf litter
+  - decaying vegetation
+  - agar (laboratory)
+  - forest floor duff
+mood_tags:
+  - collective
+  - sacrifice
+  - hive mind
+  - emergence
+  - clinical
+  - alien intelligence
+  - distributed intelligence
+art_translation:
+  - aggregation spiral as signal wave data viz
+  - slug as alien translucent creature
+  - sorocarp as minimalist monument
+  - stalk cells as structural sacrifice
+  - cAMP waves as reaction-diffusion art
+  - social contract made visible in cellulose
+render_modes:
+  - top-down timelapse (aggregation spirals)
+  - macro slug creature (backlit translucency)
+  - data visualization (cAMP wave interference)
+  - minimal geometric sorocarp (white on black)
+  - scientific illustration
+  - conceptual diagram (sacrifice architecture)
+related_species:
+  - Dictyostelium purpureum
+  - Polysphondylium violaceum
+  - Acytostelium subglobosum

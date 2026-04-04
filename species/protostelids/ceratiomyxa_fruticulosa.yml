@@ -1,0 +1,70 @@
+id: proto_ceratiomyxa_fruticulosa
+scientific_name: Ceratiomyxa fruticulosa
+common_names:
+  - white coral slime mold
+  - frost coral
+  - honeycomb coral slime
+group: myxomycetes
+order: Ceratiomyxales
+growth_form:
+  - erect pillar colonies
+  - branched coral-form
+  - honeycomb variant (var. poroides)
+iconic_stages:
+  - fruiting_pillars
+  - spore_surface
+color_range:
+  - pure white
+  - frosty translucent
+  - ice blue (backlit)
+  - powdery white (mature)
+  - cold dark wood (substrate contrast)
+surface_traits:
+  - smooth gel-like pillar surface
+  - spores borne externally (not inside)
+  - translucent when fresh
+  - powdery white when mature
+  - frosted appearance in mass
+structure_traits:
+  - erect cylindrical pillars
+  - branched coral-tree form (var. fruticulosa)
+  - honeycomb mesh form (var. poroides)
+  - clustered pillar arrays on substrate
+  - 1-5mm tall individual pillars
+texture_tags:
+  - frost-crusted
+  - glass-smooth
+  - coral-branched
+  - powdery white
+  - pearl-dusted
+  - translucent amber (backlit)
+substrates:
+  - rotting logs
+  - wet decaying wood
+  - moist bark
+  - woody debris after rain
+  - forest floor logs
+mood_tags:
+  - pristine
+  - crystalline
+  - ethereal
+  - sacred geometry
+  - gothic
+  - xenobiotic
+art_translation:
+  - frost cathedral architecture
+  - white crystal city on rotting wood
+  - arctic ice sculpture garden
+  - ghost coral colony
+  - translucent pillar forest
+  - winter monument in miniature
+render_modes:
+  - macro realism (white pillars on dark wet wood)
+  - backlit translucency (ice blue internal glow)
+  - crystal growth simulation
+  - naturalist plate (pillar array)
+  - maximalist arctic white
+  - gothic architecture analog
+related_species:
+  - Ceratiomyxa morchella
+  - Ceratiomyxa fruticulosa var. poroides
