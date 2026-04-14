@@ -1,0 +1,17 @@
+{
+  "description": "Slime mold visual taxonomy \u2014 morphology, lifecycle, texture DNA, and art translation targets for generative art and shader experiments",
+  "files": [
+    "README.md",
+    "repo_structure.md",
+    "lifecycle/plasmodial_lifecycle.md",
+    "lifecycle/cellular_lifecycle.md",
+    "species/myxomycetes/physarum_polycephalum.yml",
+    "species/myxomycetes/fuligo_septica.yml",
+    "species/myxomycetes/arcyria_denudata.yml",
+    "species/dictyostelids/dictyostelium_discoideum.yml",
+    "vocab/texture_terms.md",
+    "vocab/color_palettes.md",
+    "vocab/mood_tags.md",
+    "taxonomy/myxomycetes_orders.md"
+  ]
+}
